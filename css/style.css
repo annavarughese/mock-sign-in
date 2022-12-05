@@ -1,0 +1,101 @@
+body{
+  margin:0px;
+}
+
+#login {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  padding: 7%;
+  padding-top: 10%;
+  background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+}
+
+img{
+  position:relative;
+  margin-left:410px;
+}
+input,
+button {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.cont {
+  border-radius: 20px;
+  position: relative;
+  width: 900px;
+  height: 550px;
+  margin: 0 auto 100px;
+  background: #f3f2f2;
+  background-image: url("../images/5389186.jpg");
+}
+
+.form {
+  position: relative;
+  padding: 100px 10px;
+}
+
+
+button {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  height: 36px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.heading {
+  width: 100%;
+  font-size: 26px;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  width: 260px;
+  margin: 25px auto 0;
+  text-align: center;
+}
+
+label span {
+  font-size: 12px;
+  color: #393E46 ;
+  text-transform: uppercase;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.forgot-pass {
+  text-align: center;
+  font-size: 10px;
+  color:#393E46;
+}
+.forgot-pass:hover{
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.submit {
+  padding:10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: #150050; d4af7a;
+}
+
+.submit:hover{
+  background-color: #344D67;
+  cursor: default;
+}
